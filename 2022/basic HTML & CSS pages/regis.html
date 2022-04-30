@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #E1EBF7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            height: 3em;
+            width: 100%;
+            border: 0.125em solid #EBEBEB;
+            border-radius: 0.2em;
+        }
+
+        .main {
+            width: 25em;
+            margin: auto;
+            margin-top: 5em;
+            padding-bottom: .25em;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px 0 #D6DCE5, 0 6px 20px 0 #D6DCE5;
+        }
+
+        h1 {
+            padding: 0.25em;
+            background-color: #125780;
+            color: white;
+            text-align: center;
+        }
+
+        form {
+            margin: 1.5em;
+        }
+
+        .name {
+            display: flex;
+            justify-content: center;
+        }
+
+        .select {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        select {
+            height: 3em;
+            width: 13em;
+            border: 0.1em solid #EBEBEB;
+            border-radius: 0.2em;
+        }
+
+        button {
+            width: 100%;
+            height: 3em;
+            color: white;
+            background-color: #2B95D3;
+            border: none;
+            border-radius: 3px;
+        }
+    </style>
+
+    <div class="main">
+        <div class="heading">
+            <h1>Registration Form</h1>
+        </div>
+        <form>
+            <div class="name">
+                <div>
+                    <label>First Name</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <br>
+                    <input type="text">
+                </div>
+            </div>
+            <br>
+            <label for="">Email Address</label>
+            <br>
+            <input type="email">
+            <br>
+            <br>
+            <label for="">Phone</label>
+            <br>
+            <input type="number">
+            <br>
+            <br>
+
+            <div class="select">
+                <div>
+                    <label>City</label>
+                    <br>
+                    <select>
+                        <option value="London">London</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Country</label>
+                    <br>
+                    <select>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="France">France</option>
+                        <option value="Spain">Spain</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <button type="submit"> Get Started</button>
+        </form>
+    </div>
+</body>
+
+</html>

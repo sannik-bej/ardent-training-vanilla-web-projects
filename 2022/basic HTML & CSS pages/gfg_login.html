@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFG Login</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+        }
+
+        .main {
+            margin: 5em auto;
+            padding-top: 2em;
+            width: 25em;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 #D6DCE5, 0 6px 20px 0 #D6DCE5;
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            border-radius: 50%;
+
+        }
+        label {
+            font-weight: bold;
+        }
+
+        form {
+            width: 90%;
+            margin: auto;
+        }
+
+        form>input {
+            height: 3em;
+            width: 100%;
+            margin: 0.5em 0;
+            padding: 1em;
+            border: 0.1em solid grey;
+        }
+
+        #login {
+            width: 100%;
+            height: 3em;
+            background-color: #4CB050;
+            color: white;
+            border: none;
+        }
+
+        #cancel {
+            padding: 0.75em 1.15em;
+            background-color: #F44237;
+            color: white;
+            border: none;
+        }
+
+        .check {
+            display: flex;
+            align-items: center;
+            margin: 1em 1.25em;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25em;
+            background-color: #F1F1F1;
+        }
+    </style>
+
+    <div class="main">
+
+        <div class="img-container">
+            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" alt="gfg"
+            width="200em" height="200em">
+        </div>
+        <br>
+
+        <form>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" name="username" id="username" placeholder="Enter Username">
+
+
+
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Enter Password">
+
+            <br>
+            <br>
+
+            <button type="submit" id="login">Login</button>
+        </form>
+        <div class="check">
+            <input type="checkbox">
+            <label for="">&nbsp; Remember me</label>
+        </div>
+        <div class="footer">
+            <button type="submit" id="cancel" name="cancel">Cancel</button>
+            <div class="forgot">
+                <p>Forgot <a href="#">password?</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

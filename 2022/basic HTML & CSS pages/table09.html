@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table#09</title>
+
+    <style>
+        .main {
+            margin: 4em auto;
+            width: 80%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        table,
+        thead,
+        tbody {
+            border: none;
+            border-collapse: collapse;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        thead {
+            text-transform: uppercase;
+        }
+
+        tbody {
+            text-transform: capitalize;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ECECEC;
+        }
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        button {
+            padding: 0.5em;
+            border: none;
+            border-radius: 3px;
+            text-transform: capitalize;
+        }
+
+        .prog {
+            color: white;
+            background-color: #54A05C;
+        }
+
+        .open {
+            background-color: #F3C646;
+        }
+
+        .hold {
+            color: white;
+            background-color: #CF4246;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Table #09</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>invoice</th>
+                    <th>customer</th>
+                    <th>ship</th>
+                    <th>price</th>
+                    <th>purchased price</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="prog">progress</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="open">open</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="hold">on hold</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="prog">progress</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="hold">on hold</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="open">open</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="open">open</button></td>
+                </tr>
+                <tr>
+                    <td>1001</td>
+                    <td>mark otto</td>
+                    <td>japan</td>
+                    <td>$3000</td>
+                    <td>$1200</td>
+                    <td><button class="prog">progress</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
